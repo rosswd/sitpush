@@ -1,5 +1,5 @@
 # sitpush
-The [sit]() app on iOS doesn't send notifications. Mindfulness is important to keep me straight but sometimes I get into bad habits. This little python based [pushover]() program will help keep on the right road.
+The [sit](https://itunes.apple.com/us/app/sit-a-beautiful-simple-meditation-timer/id1023238111?mt=8) app on iOS doesn't send notifications. Mindfulness is important to keep me straight but sometimes I get into bad habits. This little python based [pushover](https://pushover.net/) program will help keep on the right road.
 
 ## .env
 Add your own .env file with pushover settings as shown in `app.py`
