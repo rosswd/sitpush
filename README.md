@@ -3,14 +3,14 @@ The [sit](https://itunes.apple.com/us/app/sit-a-beautiful-simple-meditation-time
 
 ## setup
 + clone
-+ pip install -r requirements.txt
++ `pip install -r requirements.txt`
 + create a new pushover app, note credentials
 + enter environment variables in .env
 + test run with `python app.py`
 + set up cron (linux) or launchd (mac)
 
 ## .env
-Add your own .env file with pushover settings as shown in `app.py`
+Add your own .env file with pushover settings: `PUSHOVER_TOKEN`, `PUSHOVER_USER` and `PUSHOVER_TITLE`
 
 ## cron
 Use cron to schedule when the notifications fire. Mine runs on a headless raspberry pi.
