@@ -3,6 +3,8 @@ The [sit](https://itunes.apple.com/us/app/sit-a-beautiful-simple-meditation-time
 
 Unfortunately the *sit* app doesn't provide a url scheme so there isn't a way to open it from the notification. This also means that apps like [workflow](https://workflow.is/) can't be used to launch the app from pushover :sob:
 
+If you still want to try, here is a [gist](https://gist.github.com/rosswd/97e3cb41999200a05d50825fe9b88f0e) of what I found on iOS URL Schemes.
+
 ## setup
 + Clone
 + `pip install -r requirements.txt`
