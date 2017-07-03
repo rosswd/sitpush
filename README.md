@@ -1,6 +1,8 @@
 # sitpush
 The [sit](https://itunes.apple.com/us/app/sit-a-beautiful-simple-meditation-timer/id1023238111?mt=8) app on iOS doesn't send notifications. Mindfulness is important to keep me straight but sometimes I get into bad habits. This little python based [pushover](https://pushover.net/) program will help keep me on the right road.
 
+Unfortunately the *sit* app doesn't provide a url scheme so there isn't a way to open it from the notification. This also means that apps like [workflow](https://workflow.is/) can't be used to launch the app from pushover :sob:
+
 ## setup
 + Clone
 + `pip install -r requirements.txt`
