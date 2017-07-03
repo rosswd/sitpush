@@ -22,10 +22,14 @@ payload = {
 }
 
 # send post request to pushover
-r = requests.post('https://api.pushover.net:443/1/messages.json', data=payload)
+def pushover_post():
+  try:
+    r = requests.post('https://api.pushover.net:443/1/messages.json', data=payload)
+  except requests.exceptions.RequestException as e:
+    print e
+    sys.exit(1)
+  else:
+    print(sit_message)
 
-# check if request was received by pushover.net
-if (r.status_code == 200):
-  print(sit_message)
-else:
-  print('request to pushover.net was not successful!')
+pushover_post()
+
