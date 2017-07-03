@@ -23,5 +23,5 @@ Note: You can run python files directly but this is how I do it.
 + Find your environment python, such as `$HOME/.virtualenvs/<env>/python`
 + Add a line that runs `app.py`
     + `$HOME/.virtualenvs/<env>/python $HOME/sites/sitpush/app.py`
-    + Make your script.sh file executable with `chmod +x script.sh`
-    + Test your file: `./script.sh`
++ Make your script.sh file executable with `chmod +x script.sh`
++ Test your file: `./script.sh`
