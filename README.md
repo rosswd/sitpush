@@ -27,7 +27,7 @@ Note: You can run python files directly but this is how I do it.
 + Test your file: `./script.sh`
 + Open a crontab with `crontab -e`
 + Test your script with a 5 minute interval
-    + `*/5 * * * *         $HOME/sites/sitpush/script.sh`
+    + `*/5 * * * *     $HOME/sites/sitpush/script.sh`
     + Your phone should be sending you pushover notifications every 5 minutes now
 + Pick the times when you want to be notified and edit your crontab file
     + I went with `59 11 * * *`, `59 15 * * *` and `59 20 * * *`
